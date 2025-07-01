@@ -36,6 +36,10 @@ body {
     @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
 
+@utility borderr {
+    @apply border border-amber-950;
+}
+
 @utility text-gradient {
     background: linear-gradient(to bottom, #ffffff, #898989);
     -webkit-background-clip: text;
@@ -85,7 +89,7 @@ body {
     }
 
     .noisy {
-        @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
+        @apply inset-0 size-full bg-[url("/images/noise.png")];
     }
 
     #hero {
